@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
 s.source       = { :git => "https://github.com/NSadava/TCMLoader.git", :tag => "0.0.1" }
 
-  s.source_files  = "LoadingFramework", "LoadingFramework/**/*.{h,m,swift,xib}"
+  s.source_files  = "TCMLoader", "TCMLoader/**/*.{h,m,swift,xib}"
 
 
 
