@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 	s.author       = { "npatel" => "npatel@tacme.com" }
 	s.source       = { :git => "https://github.com/NSadava/TCMLoader.git", :tag => "0.0.1" }
 	s.platform     = :ios, "10.0"
-	s.swift_version = ">=3.0, <=4.0"
+	s.swift_version = ">= 3.0"
 	s.source_files  = "TCMLoader", "TCMLoader/**/*.{h,m,swift,xib}"
 
 end
